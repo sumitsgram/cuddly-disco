@@ -1,0 +1,63 @@
+.q {
+    background-color: rgba(234, 23, 8, 0.789);
+    height: 150px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin: 15px 10px 5px 10px;
+}
+
+input {
+    font-size: medium;
+    text-indent: 10px;
+    height: 35px;
+    width: 50vw;
+    border-style: none;
+}
+
+button {
+    color: grey;
+    font-size: medium;
+    height: 37px;
+    width: 18vw;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #bbb;
+}
+
+li {
+    height: 44px;
+    list-style-type: none;
+    font-size: large;
+    text-indent: 10px;
+    cursor: pointer;
+}
+
+ul li:nth-of-type(2n) {
+    background: #f4eded;
+}
+
+li:hover {
+    background-color: #ddd;
+}
+
+.close {
+    position: absolute;
+    right: 7px;
+    height: 48px;
+    width: 40px;
+    
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+
